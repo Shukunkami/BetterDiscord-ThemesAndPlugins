@@ -8,7 +8,7 @@
 
     --secondary1-colour: rgba(28,28,28,0.2);
     --secondary2-colour: rgba(100,100,100,0.5);
-    --secondary3-colour: rgba(0,0,0,0);
+    --secondary3-colour: rgba(0,0,0,1);
 
     --neon-primary2-colour: rgba(244, 161, 0, 0.2);
 
@@ -683,7 +683,7 @@
    #app-mount .tooltip__382e7,
    #app-mount .container__3dde2,
    #app-mount .sectionTag-euh3ZW {
-       background-color: var(--secondary3-colour);
+       background-color: rgb(28,28,28);
        border-radius: 10px;
        border-color: transparent;
    }
@@ -874,4 +874,3 @@
 
    #app-mount .contentWrapper__08434 .result__2dc39[style*="background-color: var(--premium-tier-1"] {background-color: var(--primary3-colour)!important;}
    #app-mount .contentWrapper__08434 .result__2dc39[style*="background-color: rgb(146, 154, 250);"] {background-color: var(--primary2-colour)!important}
-
