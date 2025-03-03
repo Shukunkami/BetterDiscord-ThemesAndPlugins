@@ -672,7 +672,7 @@
    #app-mount .browser_d98031,
    #app-mount .menu_c1e9c4,
    #app-mount .messagesPopoutWrap__45690 {
-       background-color: rgb(28,28,28); 
+       background-color: var(--secondary3-colour); 
        border-radius: 10px;
    }
 
