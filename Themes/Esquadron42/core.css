@@ -8,7 +8,7 @@
 
     --secondary1-colour: rgba(28,28,28,0.2);
     --secondary2-colour: rgba(100,100,100,0.5);
-    --secondary3-colour: rgba(0,0,0,1);
+    --secondary3-colour: rgba(0,0,0,0);
 
     --neon-primary2-colour: rgba(244, 161, 0, 0.2);
 
@@ -672,7 +672,7 @@
    #app-mount .browser_d98031,
    #app-mount .menu_c1e9c4,
    #app-mount .messagesPopoutWrap__45690 {
-       background-color: var(--secondary3-colour); 
+       background-color: rgb(28,28,28); 
        border-radius: 10px;
    }
 
