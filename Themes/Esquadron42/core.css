@@ -2,13 +2,14 @@
     --background: url('https://static.actugaming.net/media/2018/01/2016-star-citizen-game-img-889x500.jpg');
     --activetext-colour: white;
 
-    --primary1-colour: rgba(168, 29, 17);
-    --primary2-colour: rgba(244, 161, 0);
-    --primary3-colour: rgba(168, 29, 17,0.5);
+    --primary1-colour: rgba(168,29,17,1);
+    --primary2-colour: rgba(244,161,0,1);
+    --primary3-colour: rgba(168,29,17,0.5);
 
     --secondary1-colour: rgba(28,28,28,0.2);
     --secondary2-colour: rgba(100,100,100,0.5);
     --secondary3-colour: rgba(0,0,0,0);
+    --secondary4-colour: rgba(28,28,28,1);
 
     --neon-primary2-colour: rgba(244, 161, 0, 0.2);
 
@@ -27,57 +28,57 @@
 }
 
 #app-mount {
-   background: var(--background-image);
+    background: var(--background-image);
 }
 
 /* removing backgrounds */
 
 /* Guild and Top bar transparency */
 .theme-dark .wrapper_ef3116 {
-   background:transparent;
-   background-image: var(--transparency-1);
+    background:transparent;
+    background-image: var(--transparency-1);
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
 #app-mount .container__2637a, .privateChannels__35e86, .app_a3002d .standardSidebarView__23e6b, .app_a3002d .container__133bf {
-   background: transparent;
-   background-image: var(--transparency-2); 
+    background: transparent;
+    background-image: var(--transparency-2); 
 }
 .theme-dark .panels_c48ade, .theme-light .panels_c48ade {
-   background: var(--transparency-2);
+    background: var(--transparency-2);
 }
 /* chat and top area and other secondary pages */
 .app_a3002d .chat_f75fb0, .app_a3002d .scrollableContainer__74017 {
-   background: transparent;
-   background-image: var(--transparency-3);
+    background: transparent;
+    background-image: var(--transparency-3);
 }
 /* removing color from specific class */
 .panels_c48ade {
-   background-color: transparent;
+    background-color: transparent;
 }
 /* extra for transparency 3 special case */
 .themeDark-3Ap_7i, .app_a3002d .chat_f75fb0 {
-   background-color: transparent;
-   background-image: var(--transparency-3);
+    background-color: transparent;
+    background-image: var(--transparency-3);
 }
 .typeWindows__421ed {
-   background-image: var(--transparency-5);
+    background-image: var(--transparency-5);
 }
 /* removes margin from top area and adds it to the nav buttons + discord logo */
 .typeWindows__421ed {
-   height: 21px;
-   margin-top: 0px;
+    height: 21px;
+    margin-top: 0px;
 }
 /* removes a border under better discord at channels */
 .unread-1xRYoj {
-   display:none;
+    display:none;
 }
 /* fixes */
 .theme-dark {
-   --background-primary: none;
-   --background-secondary: none;
-   --background-tertiary: none;
-   --background-accent: none;
+    --background-primary: none;
+    --background-secondary: none;
+    --background-tertiary: none;
+    --background-accent: none;
 } 
 /*--------------------------------------------------------*/
 
@@ -323,7 +324,7 @@
        }
        #app-mount .hasReply_c19a55 .buttonContainer_c19a55 .wrapper_f7ecac{ margin-top: 24px; }
 
-       #app-mount .chat_f75fb0 .scrollableContainer__74017 { background-color: rgb(28,28,28); }
+       #app-mount .chat_f75fb0 .scrollableContainer__74017 { background-color: var(--secondary4-colour); }
 
 
        /*Media Player*/
@@ -672,7 +673,7 @@
    #app-mount .browser_d98031,
    #app-mount .menu_c1e9c4,
    #app-mount .messagesPopoutWrap__45690 {
-       background-color: rgb(28,28,28); 
+       background-color: var(--secondary4-colour); 
        border-radius: 10px;
    }
 
@@ -683,7 +684,7 @@
    #app-mount .tooltip__382e7,
    #app-mount .container__3dde2,
    #app-mount .sectionTag-euh3ZW {
-       background-color: rgb(28,28,28);
+       background-color: var(--secondary4-colour);
        border-radius: 10px;
        border-color: transparent;
    }
@@ -776,7 +777,7 @@
        background: transparent;
    }
    
-   #app-mount .outer_c0bea0:not(.custom-theme-background) { background-color: var(--secondary3-colour)!important; }
+   #app-mount .outer_c0bea0:not(.custom-theme-background) { background-color: var(--secondary4-colour)!important; }
 
    #app-mount .outer_c0bea0:not(.custom-theme-background) .role_dfa8b6,
    #app-mount .outer_c0bea0:not(.custom-theme-background) .channelTextArea__74017 .inner_a99829 {
@@ -786,7 +787,7 @@
 /*Search Popup*/
    #app-mount .container__55c99,
    #app-mount .container__55c99 ul {
-       background-color: var(--secondary3-colour);
+       background-color: var(--secondary4-colour);
    }
 
    #app-mount .searchFilter_bd8186,
@@ -854,7 +855,7 @@
    #app-mount .animatorLeft_faf9c0 .picker__09f65,
    #app-mount .animatorLeft_faf9c0 .header_c0e32c,
    #app-mount .animatorLeft_faf9c0 .emojiPicker_c0e32c {
-       background-color: rgb(28,28,28); 
+       background-color: var(--secondary4-colour); 
    }
    #app-mount .inspector_aeaaeb,
    #app-mount .inspector_aeaaeb {
@@ -862,13 +863,13 @@
    }
 
    #app-mount .animatorTop_faf9c0 {
-       background-color: rgb(28,28,28);
+       background-color: var(--secondary4-colour);
        border-radius: 10px;
    }
-   #app-mount .animatorTop_faf9c0 .soundButtonRefresh__6d4ed { background-color: rgb(28,28,28); }
-   #app-mount .animatorTop_faf9c0 .soundButtonRefresh__6d4ed:hover { background-color: rgb(28,28,28); }
+   #app-mount .animatorTop_faf9c0 .soundButtonRefresh__6d4ed { background-color: var(--secondary4-colour); }
+   #app-mount .animatorTop_faf9c0 .soundButtonRefresh__6d4ed:hover { background-color: var(--secondary4-colour); }
 
-   #app-mount .contentWrapper__08434 .categoryFadeBlurple_d02962 {background-color: rgb(28,28,28);}
+   #app-mount .contentWrapper__08434 .categoryFadeBlurple_d02962 {background-color: var(--secondary4-colour);}
 
    #app-mount .contentWrapper__08434 .result__2dc39:hover:after {box-shadow: 0 0 2px 2px var(--primary1-colour);}
 
