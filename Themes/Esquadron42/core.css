@@ -8,7 +8,7 @@
 
     --secondary1-colour: rgba(28,28,28,0.2);
     --secondary2-colour: rgba(100,100,100,0.5);
-    --secondary3-colour: rgba(0,0,0,0);
+    --secondary3-colour: rgba(0,0,0,1);
     --secondary4-colour: rgba(28,28,28,1);
 
     --neon-primary2-colour: rgba(244, 161, 0, 0.2);
@@ -498,11 +498,11 @@
        background-color: var(--secondary3-colour);
        border-color: var(--secondary3-colour);
    }
-   #app-mount .option__3f413 {background-color: var(--secondary3-colour)}
+   #app-mount .option__3f413 {background-color: var(--secondary4-colour)}
    #app-mount .option__3f413 .selectedIcon__3f413 path {fill: var(--primary1-colour);}
    #app-mount .option__3f413:hover,
    #app-mount .option__3f413[aria-selected="true"] {
-       background-color: var(--primary3-colour);
+       background-color: var(--primary1-colour);
    }
 
    #app-mount .inputDefault__0f084 {background-color: var(--secondary3-colour); border: 1px solid transparent;}
