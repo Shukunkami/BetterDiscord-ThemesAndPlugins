@@ -8,7 +8,7 @@
 
     --secondary1-colour: rgba(28,28,28,0.2);
     --secondary2-colour: rgba(100,100,100,0.5);
-    --secondary3-colour: rgba(0,0,0,1);
+    --secondary3-colour: rgba(0,0,0,0);
     --secondary4-colour: rgba(28,28,28,1);
 
     --neon-primary2-colour: rgba(244, 161, 0, 0.2);
@@ -214,7 +214,7 @@
 
        #app-mount .unreadBar__629e4 {background-color: var(--secondary2-colour);}
 
-       #app-mount .autocomplete__13533 {background-color: var(--secondary3-colour);}
+       #app-mount .autocomplete__13533 {background-color: var(--secondary4-colour);}
 
        /*Voice Channels*/
            #app-mount .containerDefault_c69b6d .modeConnected__2ea32 div.wrapper__2ea32 {width: 100%; background-color: var(--secondary2-colour);}
