@@ -1,12 +1,11 @@
 /**
  * @name Esquadron42
  * @author Punak
- * @version 1.0.X
+ * @version 1.1.X
  * @description A theme on Esquadron 42
  * @source https://github.com/Shukunkami/BetterDiscord-ThemesAndPlugins/master/Themes/Esquadron42
  */
 
-@import url('https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css');
 @import url('https://raw.githack.com/Shukunkami/BetterDiscord-ThemesAndPlugins/main/Themes/Esquadron42/core.css');
 
 :root{
@@ -21,18 +20,5 @@
     --secondary2-colour: rgba(100,100,100,0.5);
     --secondary3-colour: rgba(0,0,0,0);
     --secondary4-colour: rgba(28,28,28,1);
-
-    --neon-primary2-colour: rgba(244,161,0,0.2);
-
-    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    
-    /* Discord variables */
-    --background-mentioned:var(--neon-primary2-colour);
-    --header-primary: var(--primary2-colour);
-    --interactive-active: var(--primary2-colour);
 
 }
