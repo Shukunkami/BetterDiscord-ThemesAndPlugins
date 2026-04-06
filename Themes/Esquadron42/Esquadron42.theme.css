@@ -12,13 +12,15 @@
     --background: url('https://raw.githack.com/Shukunkami/BetterDiscord-ThemesAndPlugins/main/Themes/Esquadron42/themebackground.png');
     --activetext-colour: white;
 
-    --primary1-colour: rgba(168,29,17,1);
-    --primary2-colour: rgba(244,161,0,1);
-    --primary3-colour: rgba(168,29,17,0.5);
+    --primary1-colour: red;
+    --primary2-colour: rgba(255,255,0,0.5);
+    --primary3-colour: rgba(100,0,0,0.6);
+    --primary4-colour: rgba(100,0,0,0.4);
+    --primary5-colour: rgba(100,100,0,0.6);
 
-    --secondary1-colour: rgba(28,28,28,0.2);
+    --secondary1-colour: rgba(50,50,50,0.3);
     --secondary2-colour: rgba(100,100,100,0.5);
-    --secondary3-colour: rgba(0,0,0,0);
-    --secondary4-colour: rgba(28,28,28,1);
+    --secondary3-colour: rgba(0,0,0,0.6);
+    --secondary4-colour: rgba(0,0,0,0.3);
 
 }
